@@ -8,7 +8,7 @@ modules:
     type: approuter.nodejs
     path: app
     deployed-after:
-      - city-image-uploader
+      - city-image-uploader 
       - city-cap-srv
     parameters:
       disk-quota: 256M
